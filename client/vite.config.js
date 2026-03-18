@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "https://resume-builder-2-qljk.onrender.com",
         changeOrigin: true,
       },
     },
